@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0078D4&height=140&section=header&text=OUSSAMA%20GHAZOUANI&fontSize=32&fontColor=ffffff&desc=full-stack%20dev%20·%20DevSecOps%20·%20security&descSize=16&descAlignY=68" width="100%" />
 
 <a href="https://github.com/Oussama928">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3500&pause=800&color=58A6FF&center=true&vCenter=true&width=620&lines=I+ship+it%2C+then+I+harden+it;Alexa%2C+feed+the+cat;break+things+on+purpose%2C+fix+them+properly" alt="typing" />
+  <img src="assets/typing.svg" width="640" alt="typing" />
 </a>
 
 [![Repos](https://img.shields.io/badge/repos-26-181717?logo=github&logoColor=white)](https://github.com/Oussama928?tab=repositories)
