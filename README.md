@@ -1,86 +1,35 @@
-# GHAZOUANI OUSSAMA
+<div align="center">
 
-```
-ous@github:~$ whoami
-> full-stack dev with a security habit
-> ships things to Azure, breaks things on purpose, fixes them properly
-> location: somewhere between a terminal and a Tunisian coffee
-ous@github:~$ _
-```
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0078D4&height=140&section=header&text=OUSSAMA%20GHAZOUANI&fontSize=32&fontColor=ffffff&desc=full-stack%20dev%20·%20DevSecOps%20·%20security&descSize=16&descAlignY=68" width="100%" />
 
-I build full-stack apps, then obsess over how they get deployed, who can touch them,
-and what happens when something goes wrong at 3am. The pipeline is the product.
+<a href="https://github.com/Oussama928">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3500&pause=800&color=58A6FF&center=true&vCenter=true&width=620&lines=I+ship+it%2C+then+I+harden+it;Alexa%2C+feed+the+cat;break+things+on+purpose%2C+fix+them+properly" alt="typing" />
+</a>
 
----
+[![Repos](https://img.shields.io/badge/repos-26-181717?logo=github&logoColor=white)](https://github.com/Oussama928?tab=repositories)
+[![Org](https://img.shields.io/badge/org-Kube--Shield-326CE5?logo=kubernetes&logoColor=white)](https://github.com/Kube-Shield)
+[![Focus](https://img.shields.io/badge/focus-DevSecOps%20%2B%20full--stack-0078D4?logo=microsoftazure&logoColor=white)](https://github.com/Oussama928)
 
-## Things I've actually built
+</div>
 
-### 🎴 [Card-Learning-App](https://github.com/Oussama928/Card-Learning-App)
-A language-learning platform with adaptive flashcards and collaborative study rooms —
-deployed on Azure behind a full **DevSecOps CI/CD pipeline**. Not "it works on my machine",
-*it works in production with a pipeline that checks itself*.
+### 🔭 Things I've actually built
 
-### 🍿 [RakchaTn](https://github.com/Oussama928/RakchaTn)
-Movie & series streaming platform with personalized queues and social features.
-The name is Tunisian slang. The UI is polished. The queues are yours.
-
-### 🐾 [PetFeeding-Machine](https://github.com/Oussama928/PetFeeding-Machine)
-An IoT pet feeder my cat would design if my cat could code: scheduled & manual
-dispensing, real-time stock and weight monitoring, MQTT, and **Alexa voice control** —
-because "Alexa, feed the cat" is peak software engineering.
-
-### 🤖 [Distributed-Agent-Based-Monitoring-and-Response-System](https://github.com/Oussama928/Distributed-Agent-Based-Monitoring-and-Response-System)
-A JADE multi-agent system that watches distributed hosts, detects anomalies, and
-**remediates them on its own**. Self-healing infra, but with software agents instead of vibes.
-
-<details>
-<summary><b>More from the lab</b></summary>
-
-- 🔐 [Azure-Cloud-Security-Engineering-Lab](https://github.com/Oussama928/Azure-Cloud-Security-Engineering-Lab) — zero-trust identity, network hardening, SIEM detection, secrets management, compliance. Four phases of paranoia.
-- 🏗️ [Azure-Cloud-Architecture-Labs](https://github.com/Oussama928/Azure-Cloud-Architecture-Labs) — resilient, scalable infrastructure design, on paper and in the portal.
-- 🚩 [Cybersecurity-CTF-Solutions](https://github.com/Oussama928/Cybersecurity-CTF-Solutions) — flags captured, writeups included.
-- 🧠 [car-price-prediction](https://github.com/Oussama928/car-price-prediction) — end-to-end ML with a CRISP-DM pipeline, deployed as a web app.
-- 🗺️ [Shortest-Path](https://github.com/Oussama928/Shortest-Path) — pathfinding visualizer: Gurobi + FastAPI + React.
-
-</details>
-
----
-
-## The arc so far
-
-```
-2023  HTML dice games and a to-do list          → "how does any of this work?"
-2024  Java GUIs, streaming platforms, IoT       → "okay, I can build things"
-2025  Azure, DevSecOps, multi-agent systems     → "now, how do I break them?"
-2026  Kube-Shield, security labs, CTFs          → "...and how do I defend them"
-```
-
-Currently deep in the [Kube-Shield](https://github.com/Kube-Shield) org — cloud, Kubernetes, and security tooling.
-
----
-
-## Toolbox
-
-| Layer | Stuff I reach for |
+| | |
 |---|---|
-| **Frontend** | Next.js · React · Angular · TypeScript |
-| **Backend** | NestJS · Node.js · FastAPI · Java · Python |
-| **Cloud / Ops** | Azure · CI/CD · Docker · Kubernetes · DevSecOps |
-| **Security** | SIEM · zero-trust · CTFs · general suspicion |
-| **IoT / ML** | MQTT · Alexa · Jupyter · scikit-learn |
-
----
-
-## The fine print
-
-- I don't trust a feature until there's a pipeline in front of it.
-- I name side projects in Tunisian slang. It's a feature.
-- The pet feeder has a monitoring dashboard. My cat does not know this.
+| 🎴 **[Card-Learning-App](https://github.com/Oussama928/Card-Learning-App)** | adaptive flashcards + study rooms on Azure, behind a real DevSecOps pipeline |
+| 🍿 **[RakchaTn](https://github.com/Oussama928/RakchaTn)** | streaming platform, Tunisian slang included |
+| 🐾 **[PetFeeding-Machine](https://github.com/Oussama928/PetFeeding-Machine)** | IoT pet feeder — MQTT, stock monitoring, Alexa voice control |
+| 🤖 **[Agent Monitoring System](https://github.com/Oussama928/Distributed-Agent-Based-Monitoring-and-Response-System)** | JADE multi-agents that detect anomalies and self-heal hosts |
 
 <div align="center">
 
-[![Repos](https://img.shields.io/badge/repos-26%20and%20counting-181717?logo=github)](https://github.com/Oussama928?tab=repositories)
-[![Focus](https://img.shields.io/badge/focus-DevSecOps%20%2B%20full--stack-0078D4?logo=microsoftazure)](https://github.com/Oussama928)
-[![Mood](https://img.shields.io/badge/status-ship%20it%2C%20then%20harden%20it-8b0000)](https://github.com/Oussama928)
+### 🧰
+
+`Next.js` · `NestJS` · `React` · `Angular` · `TypeScript` · `Python` · `Java`
+`Azure` · `Docker` · `Kubernetes` · `CI/CD` · `SIEM` · `MQTT`
+
+**2023** html dice games → **2024** full-stack & IoT → **2025** Azure & DevSecOps → **2026** security & CTFs
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:0d1117&height=100&section=footer" width="100%" />
 
 </div>
