@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="80" viewBox="0 0 850 80" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="0.45" stop-color="#0a3060"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-850px); } }
+    .wave  { animation: drift 11s linear infinite; }
+    .wave2 { animation: drift 18s linear infinite reverse; }
+  </style>
+
+  <g class="wave2" opacity="0.35">
+    <path fill="#58a6ff" d="M0 22 Q 85 52 170 22 T 340 22 T 510 22 T 680 22 T 850 22 T 1020 22 T 1190 22 T 1360 22 T 1530 22 T 1700 22 L 1700 80 L 0 80 Z"/>
+  </g>
+  <g class="wave">
+    <path fill="url(#bg)" d="M0 30 Q 106.25 60 212.5 30 T 425 30 T 637.5 30 T 850 30 T 1062.5 30 T 1275 30 T 1487.5 30 T 1700 30 L 1700 80 L 0 80 Z"/>
+  </g>
+</svg>

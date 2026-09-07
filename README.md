@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0078D4&height=140&section=header&text=OUSSAMA%20GHAZOUANI&fontSize=32&fontColor=ffffff&desc=full-stack%20dev%20·%20DevSecOps%20·%20security&descSize=16&descAlignY=68" width="100%" />
+<img src="assets/header.svg" width="100%" alt="Oussama Ghazouani — full-stack dev · DevSecOps · security" />
 
 <a href="https://github.com/Oussama928">
   <img src="assets/typing.svg" width="640" alt="typing" />
@@ -30,6 +30,6 @@
 
 **2023** html dice games → **2024** full-stack & IoT → **2025** Azure & DevSecOps → **2026** security & CTFs
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:0d1117&height=100&section=footer" width="100%" />
+<img src="assets/footer.svg" width="100%" alt="" />
 
 </div>
