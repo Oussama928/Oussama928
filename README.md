@@ -3,7 +3,7 @@
 <img src="assets/header.svg" width="100%" alt="Oussama Ghazouani — full-stack dev · DevSecOps · security" />
 
 <a href="https://github.com/Oussama928">
-  <img src="assets/typing.svg" width="640" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=I+ship+it%2C+then+I+harden+it" alt="typing" />
 </a>
 
 [![Repos](https://img.shields.io/badge/repos-26-181717?logo=github&logoColor=white)](https://github.com/Oussama928?tab=repositories)
