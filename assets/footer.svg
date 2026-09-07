@@ -27,12 +27,6 @@
     .b4 { animation-duration: 11s; animation-delay: 1.4s; }
     .b5 { animation-duration: 8s;  animation-delay: 3.7s; }
     .b6 { animation-duration: 9.5s; animation-delay: 6.1s; }
-    @keyframes sweep {
-      0%   { transform: translateX(-220px) rotate(-14deg); }
-      55%  { transform: translateX(1150px) rotate(-14deg); }
-      100% { transform: translateX(1150px) rotate(-14deg); }
-    }
-    .shine { animation: sweep 11s linear infinite 3s; }
   </style>
 
   <g class="wave2" opacity="0.30">
@@ -52,6 +46,5 @@
     <circle class="b b4" cx="610" cy="76" r="2.5" fill="#ffffff" opacity="0"/>
     <circle class="b b5" cx="720" cy="72" r="3.5" fill="#9cd3ff" opacity="0"/>
     <circle class="b b6" cx="80"  cy="75" r="2"   fill="#ffffff" opacity="0"/>
-    <rect class="shine" x="-60" y="-40" width="100" height="170" fill="#ffffff" opacity="0.06"/>
   </g>
 </svg>
