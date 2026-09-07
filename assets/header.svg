@@ -5,23 +5,63 @@
       <stop offset="0.55" stop-color="#0a3060"/>
       <stop offset="1" stop-color="#0078D4"/>
     </linearGradient>
+    <clipPath id="body">
+      <path d="M0 110 Q 106.25 75 212.5 110 T 425 110 T 637.5 110 T 850 110 T 1062.5 110 T 1275 110 T 1487.5 110 T 1700 110 L 1700 0 L 0 0 Z"/>
+    </clipPath>
   </defs>
   <style>
     text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; text-anchor: middle; }
-    .name { font-size: 30px; font-weight: 700; letter-spacing: 6px; }
-    .desc { font-size: 15px; fill: #cfe6ff; letter-spacing: 1.5px; }
+    .name { font-size: 30px; font-weight: 700; letter-spacing: 6px; filter: drop-shadow(0 2px 5px rgba(0,0,0,0.55)); }
+    .desc { font-size: 15px; fill: #cfe6ff; letter-spacing: 1.5px; filter: drop-shadow(0 1px 3px rgba(0,0,0,0.45)); }
     @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-850px); } }
     .wave  { animation: drift 9s  linear infinite; }
-    .wave2 { animation: drift 16s linear infinite reverse; }
+    .wave3 { animation: drift 14s linear infinite; }
+    .wave2 { animation: drift 19s linear infinite reverse; }
+    @keyframes rise {
+      0%   { transform: translateY(35px); opacity: 0; }
+      15%  { opacity: 0.55; }
+      85%  { opacity: 0.55; }
+      100% { transform: translateY(-75px); opacity: 0; }
+    }
+    .b { animation: rise 9s ease-in infinite; }
+    .b1 { animation-duration: 8s;  animation-delay: 0s;   }
+    .b2 { animation-duration: 11s; animation-delay: 2.2s; }
+    .b3 { animation-duration: 7s;  animation-delay: 4.5s; }
+    .b4 { animation-duration: 12s; animation-delay: 1.1s; }
+    .b5 { animation-duration: 9s;  animation-delay: 5.8s; }
+    .b6 { animation-duration: 10s; animation-delay: 3.1s; }
+    .b7 { animation-duration: 13s; animation-delay: 0.7s; }
+    .b8 { animation-duration: 8.5s; animation-delay: 6.4s; }
+    @keyframes sweep {
+      0%   { transform: translateX(-220px) rotate(18deg); }
+      55%  { transform: translateX(1150px) rotate(18deg); }
+      100% { transform: translateX(1150px) rotate(18deg); }
+    }
+    .shine { animation: sweep 9s linear infinite 2s; }
   </style>
 
-  <!-- back wave: slower, drifts the other way -->
-  <g class="wave2" opacity="0.35">
+  <!-- three parallax wave layers, back ones drift the other way -->
+  <g class="wave2" opacity="0.30">
     <path fill="#58a6ff" d="M0 100 Q 85 65 170 100 T 340 100 T 510 100 T 680 100 T 850 100 T 1020 100 T 1190 100 T 1360 100 T 1530 100 T 1700 100 L 1700 0 L 0 0 Z"/>
   </g>
-  <!-- front wave: gradient body -->
+  <g class="wave3" opacity="0.45">
+    <path fill="#388bfd" d="M0 90 Q 53.125 60 106.25 90 T 212.5 90 T 318.75 90 T 425 90 T 531.25 90 T 637.5 90 T 743.75 90 T 850 90 T 956.25 90 T 1062.5 90 T 1168.75 90 T 1275 90 T 1381.25 90 T 1487.5 90 T 1593.75 90 T 1700 90 L 1700 0 L 0 0 Z"/>
+  </g>
   <g class="wave">
     <path fill="url(#bg)" d="M0 110 Q 106.25 75 212.5 110 T 425 110 T 637.5 110 T 850 110 T 1062.5 110 T 1275 110 T 1487.5 110 T 1700 110 L 1700 0 L 0 0 Z"/>
+  </g>
+
+  <!-- bubbles + light sweep, clipped to the wave body -->
+  <g clip-path="url(#body)">
+    <circle class="b b1" cx="120" cy="125" r="4"   fill="#9cd3ff" opacity="0"/>
+    <circle class="b b2" cx="262" cy="130" r="3"   fill="#ffffff" opacity="0"/>
+    <circle class="b b3" cx="392" cy="128" r="5"   fill="#9cd3ff" opacity="0"/>
+    <circle class="b b4" cx="521" cy="132" r="3"   fill="#ffffff" opacity="0"/>
+    <circle class="b b5" cx="643" cy="126" r="4.5" fill="#9cd3ff" opacity="0"/>
+    <circle class="b b6" cx="758" cy="131" r="3"   fill="#ffffff" opacity="0"/>
+    <circle class="b b7" cx="58"  cy="133" r="2.5" fill="#9cd3ff" opacity="0"/>
+    <circle class="b b8" cx="816" cy="129" r="2.5" fill="#ffffff" opacity="0"/>
+    <rect class="shine" x="-60" y="-60" width="120" height="280" fill="#ffffff" opacity="0.07"/>
   </g>
 
   <text class="name" x="425" y="62">OUSSAMA GHAZOUANI</text>
