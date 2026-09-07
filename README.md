@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Oussama Ghazouani — full-stack dev · DevSecOps · security" />
+<img src="assets/header.svg?v=2" width="100%" alt="Oussama Ghazouani — full-stack dev · DevSecOps · security" />
 
 <a href="https://github.com/Oussama928">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=I+ship+it%2C+then+I+harden+it" alt="typing" />
@@ -30,6 +30,6 @@
 
 **2023** html dice games → **2024** full-stack & IoT → **2025** Azure & DevSecOps → **2026** security & CTFs
 
-<img src="assets/footer.svg" width="100%" alt="" />
+<img src="assets/footer.svg?v=2" width="100%" alt="" />
 
 </div>
