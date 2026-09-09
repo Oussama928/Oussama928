@@ -62,7 +62,9 @@ I'm a full-stack developer who fell in love with the unglamorous half of softwar
 
 <div align="center">
 
-📬 **The fastest way to reach me is a GitHub message — my inbox is open for opportunities and interesting problems.**
+[![Email](https://img.shields.io/badge/email-oussama.ghazouani%40insat.ucar.tn-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:oussama.ghazouani@insat.ucar.tn)
+
+**The fastest way to reach me is by email — my inbox is open for opportunities and interesting problems.**
 
 <img src="assets/footer.svg?v=2" width="100%" alt="" />
 
