@@ -20,10 +20,10 @@ I'm a full-stack developer who fell in love with the unglamorous half of softwar
 
 **What I bring to a team:**
 
-- 🚀 **Full-stack delivery** — I've designed, built and deployed complete platforms end-to-end, from Next.js frontends to backend APIs to cloud infrastructure — see [Card-Learning-App](https://github.com/Oussama928/Card-Learning-App), live on Azure.
-- 🔐 **Security-first engineering** — I run a four-phase Azure security lab covering zero-trust identity, network hardening, SIEM detection and secrets management ([Azure-Cloud-Security-Engineering-Lab](https://github.com/Oussama928/Azure-Cloud-Security-Engineering-Lab)), and I solve CTF challenges for fun ([writeups](https://github.com/Oussama928/Cybersecurity-CTF-Solutions)).
-- ⚙️ **DevSecOps automation** — I ship through CI/CD pipelines that test, scan and deploy automatically. My rule: no feature ships without a pipeline in front of it.
-- 🤖 **Systems thinking** — I built a JADE multi-agent system that monitors distributed hosts and autonomously remediates faults ([repo](https://github.com/Oussama928/Distributed-Agent-Based-Monitoring-and-Response-System)), and an IoT feeder with real-time MQTT telemetry and Alexa integration ([repo](https://github.com/Oussama928/PetFeeding-Machine)).
+- 🤖 **Agentic AI** — I built a JADE multi-agent system that monitors distributed hosts, detects anomalies and autonomously remediates faults — software that operates itself, not just software that runs ([repo](https://github.com/Oussama928/Distributed-Agent-Based-Monitoring-and-Response-System)).
+- 🔐 **DevSecOps** — I ship through CI/CD pipelines that test, scan and deploy automatically, and I run a four-phase Azure security lab covering zero-trust identity, network hardening, SIEM detection and secrets management ([repo](https://github.com/Oussama928/Azure-Cloud-Security-Engineering-Lab)). CTF writeups [here](https://github.com/Oussama928/Cybersecurity-CTF-Solutions). My rule: no feature ships without a pipeline in front of it.
+- 🚀 **Full-stack delivery** — I design, build and deploy complete platforms end-to-end, from Next.js frontends to backend APIs to cloud infrastructure — see [Card-Learning-App](https://github.com/Oussama928/Card-Learning-App), live on Azure, and [RakchaTn](https://github.com/Oussama928/RakchaTn).
+- 🌐 **Connected hardware** — an IoT pet feeder with real-time MQTT telemetry, stock & weight monitoring and Alexa voice control ([repo](https://github.com/Oussama928/PetFeeding-Machine)).
 
 ---
 
@@ -31,11 +31,11 @@ I'm a full-stack developer who fell in love with the unglamorous half of softwar
 
 | Project | Stack | What it does |
 |---|---|---|
+| 🤖 [**Agent Monitoring System**](https://github.com/Oussama928/Distributed-Agent-Based-Monitoring-and-Response-System) | Java · JADE · Multi-agent | Autonomous agents that detect anomalies on distributed hosts and remediate them without human intervention |
+| 🔐 [**Azure Security Lab**](https://github.com/Oussama928/Azure-Cloud-Security-Engineering-Lab) | Azure · SIEM · Zero-trust | Four-phase security engineering lab: identity, network, detection, secrets & compliance |
 | 🎴 [**Card-Learning-App**](https://github.com/Oussama928/Card-Learning-App) | Next.js · TypeScript · Azure · CI/CD | Language-learning platform with adaptive flashcards & collaborative rooms, deployed on Azure behind a DevSecOps pipeline |
 | 🍿 [**RakchaTn**](https://github.com/Oussama928/RakchaTn) | JavaScript · Full-stack | Movie & series streaming platform with personalized queues and social features |
-| 🤖 [**Agent Monitoring System**](https://github.com/Oussama928/Distributed-Agent-Based-Monitoring-and-Response-System) | Java · JADE · Multi-agent | Autonomous agents that detect anomalies on distributed hosts and remediate them without human intervention |
 | 🐾 [**PetFeeding-Machine**](https://github.com/Oussama928/PetFeeding-Machine) | IoT · MQTT · Alexa | Smart pet feeder with scheduled dispensing, real-time stock & weight monitoring, and voice control |
-| 🔐 [**Azure Security Lab**](https://github.com/Oussama928/Azure-Cloud-Security-Engineering-Lab) | Azure · SIEM · Zero-trust | Four-phase security engineering lab: identity, network, detection, secrets & compliance |
 
 ---
 
