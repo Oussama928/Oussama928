@@ -31,8 +31,10 @@ I'm a full-stack developer who fell in love with the unglamorous half of softwar
 
 <div align="center">
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Oussama928&show_icons=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=0078D4&hide_border=true" height="150" alt="GitHub stats" />
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Oussama928&layout=compact&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&hide_border=true&langs_count=8" height="150" alt="Top languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Oussama928&theme=github_dark" height="170" alt="GitHub profile details" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Oussama928&theme=github_dark" height="150" alt="GitHub stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Oussama928&theme=github_dark" height="150" alt="Languages" />
 
 <img src="https://streak-stats.demolab.com?user=Oussama928&hide_long_streak=true&background=0D111700&border=0&stroke=0D111700&dates=8B949E&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=8B949E&fire=0078D4" height="150" alt="GitHub streak" />
 
