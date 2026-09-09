@@ -20,10 +20,10 @@ I'm a full-stack developer who fell in love with the unglamorous half of softwar
 
 **What I bring to a team:**
 
-- 🤖 **Agentic AI** — I built a JADE multi-agent system that monitors distributed hosts, detects anomalies and autonomously remediates faults — software that operates itself, not just software that runs ([repo](https://github.com/Oussama928/Distributed-Agent-Based-Monitoring-and-Response-System)).
-- 🔐 **DevSecOps** — I ship through CI/CD pipelines that test, scan and deploy automatically, and I run a four-phase Azure security lab covering zero-trust identity, network hardening, SIEM detection and secrets management ([repo](https://github.com/Oussama928/Azure-Cloud-Security-Engineering-Lab)). CTF writeups [here](https://github.com/Oussama928/Cybersecurity-CTF-Solutions). My rule: no feature ships without a pipeline in front of it.
-- 🚀 **Full-stack delivery** — I design, build and deploy complete platforms end-to-end, from Next.js frontends to backend APIs to cloud infrastructure — see [Card-Learning-App](https://github.com/Oussama928/Card-Learning-App), live on Azure, and [RakchaTn](https://github.com/Oussama928/RakchaTn).
-- 🌐 **Connected hardware** — an IoT pet feeder with real-time MQTT telemetry, stock & weight monitoring and Alexa voice control ([repo](https://github.com/Oussama928/PetFeeding-Machine)).
+- **Agentic AI** — I built a JADE multi-agent system that monitors distributed hosts, detects anomalies and autonomously remediates faults — software that operates itself, not just software that runs ([repo](https://github.com/Oussama928/Distributed-Agent-Based-Monitoring-and-Response-System)).
+- **DevSecOps** — I ship through CI/CD pipelines that test, scan and deploy automatically, and I run a four-phase Azure security lab covering zero-trust identity, network hardening, SIEM detection and secrets management ([repo](https://github.com/Oussama928/Azure-Cloud-Security-Engineering-Lab)). CTF writeups [here](https://github.com/Oussama928/Cybersecurity-CTF-Solutions). My rule: no feature ships without a pipeline in front of it.
+- **Full-stack delivery** — I design, build and deploy complete platforms end-to-end, from Next.js frontends to backend APIs to cloud infrastructure — see [Card-Learning-App](https://github.com/Oussama928/Card-Learning-App), live on Azure, and [RakchaTn](https://github.com/Oussama928/RakchaTn).
+- **Connected hardware** — an IoT pet feeder with real-time MQTT telemetry, stock & weight monitoring and Alexa voice control ([repo](https://github.com/Oussama928/PetFeeding-Machine)).
 
 ---
 
