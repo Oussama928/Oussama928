@@ -50,7 +50,7 @@ I'm a full-stack developer who fell in love with the unglamorous half of softwar
 
 **Backend** &nbsp; `NestJS` · `Node.js` · `FastAPI` · `Spring`
 
-**Cloud, DevOps & Security** &nbsp; `Azure` · `Docker` · `Kubernetes` · `CI/CD` · `GitHub Actions`<br>`SIEM` · `Zero-trust` · `Secrets management`
+**Cloud, DevOps & Security** &nbsp; `Azure` · `AWS` · `Docker` · `Kubernetes` · `CI/CD` · `GitHub Actions`<br>`SIEM` · `Zero-trust` · `Secrets management`
 
 **Agentic AI** &nbsp; `LangGraph` · `LLM Orchestration` · `Multi-Agent Systems` · `Human-in-the-Loop`
 
