@@ -27,18 +27,6 @@ I'm a full-stack developer who fell in love with the unglamorous half of softwar
 
 ---
 
-### 💼 Featured work
-
-| Project | Stack | What it does |
-|---|---|---|
-| 🤖 [**Agent Monitoring System**](https://github.com/Oussama928/Distributed-Agent-Based-Monitoring-and-Response-System) | Java · JADE · Multi-agent | Autonomous agents that detect anomalies on distributed hosts and remediate them without human intervention |
-| 🔐 [**Azure Security Lab**](https://github.com/Oussama928/Azure-Cloud-Security-Engineering-Lab) | Azure · SIEM · Zero-trust | Four-phase security engineering lab: identity, network, detection, secrets & compliance |
-| 🎴 [**Card-Learning-App**](https://github.com/Oussama928/Card-Learning-App) | Next.js · TypeScript · Azure · CI/CD | Language-learning platform with adaptive flashcards & collaborative rooms, deployed on Azure behind a DevSecOps pipeline |
-| 🍿 [**RakchaTn**](https://github.com/Oussama928/RakchaTn) | JavaScript · Full-stack | Movie & series streaming platform with personalized queues and social features |
-| 🐾 [**PetFeeding-Machine**](https://github.com/Oussama928/PetFeeding-Machine) | IoT · MQTT · Alexa | Smart pet feeder with scheduled dispensing, real-time stock & weight monitoring, and voice control |
-
----
-
 ### 📊 Proof of work
 
 <div align="center">
