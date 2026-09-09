@@ -31,8 +31,6 @@ I'm a full-stack developer who fell in love with the unglamorous half of softwar
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Oussama928&theme=github_dark" height="170" alt="GitHub profile details" />
-
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Oussama928&theme=github_dark" height="150" alt="Languages" />
 <img src="https://streak-stats.demolab.com?user=Oussama928&hide_long_streak=true&background=0D111700&border=0&stroke=0D111700&dates=8B949E&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=8B949E&fire=0078D4&v=2" height="150" alt="GitHub streak" />
 
