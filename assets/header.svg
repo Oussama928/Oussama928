@@ -11,14 +11,21 @@
       <stop offset="0" stop-color="#58a6ff" stop-opacity="0.4"/>
       <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
     </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#58a6ff" stroke-opacity="0.14" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="skyfade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
     <clipPath id="body">
       <path d="M0 110 Q 106.25 75 212.5 110 T 425 110 T 637.5 110 T 850 110 T 1062.5 110 T 1275 110 T 1487.5 110 T 1700 110 L 1700 0 L 0 0 Z"/>
     </clipPath>
   </defs>
   <style>
     text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; text-anchor: middle; }
-    .name { font-size: 30px; font-weight: 700; letter-spacing: 6px; filter: drop-shadow(0 2px 5px rgba(0,0,0,0.55)); }
-    .desc { font-size: 15px; fill: #cfe6ff; letter-spacing: 1.5px; filter: drop-shadow(0 1px 3px rgba(0,0,0,0.45)); }
+    .name { font-size: 33px; font-weight: 800; letter-spacing: 4px; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.6)); }
+    .desc { font-size: 15px; font-weight: 600; fill: #dbeaff; letter-spacing: 2px; filter: drop-shadow(0 1px 3px rgba(0,0,0,0.5)); }
     @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-850px); } }
     .wave  { animation: drift 9s  linear infinite; }
     .wave3 { animation: drift 14s linear infinite; }
@@ -54,6 +61,11 @@
     @keyframes pulse { 0%, 100% { opacity: 0.35; } 50% { opacity: 0.75; } }
     .halo { animation: pulse 6s ease-in-out infinite; }
   </style>
+
+  <!-- solid sky so banner reads in light + dark mode, with subtle tech grid -->
+  <rect width="850" height="150" fill="#0d1117"/>
+  <rect width="850" height="150" fill="url(#grid)" opacity="0.55"/>
+  <rect width="850" height="150" fill="url(#glow)" opacity="0.5"/>
 
   <!-- twinkling stars in the dark sky, kept clear of the name -->
   <g fill="#cfe6ff">
@@ -102,5 +114,5 @@
 
   <ellipse class="halo" cx="425" cy="56" rx="240" ry="34" fill="url(#glow)"/>
   <text class="name" x="425" y="62">OUSSAMA GHAZOUANI</text>
-  <text class="desc" x="425" y="88">DevSecOps · agentic AI · full-stack</text>
+  <text class="desc" x="425" y="88">full-stack · cloud/devops · agentic AI</text>
 </svg>
