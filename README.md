@@ -12,7 +12,7 @@
 
 ---
 
-### 👋 The pitch
+### The pitch
 
 I build complete systems end-to-end — from features to the pipelines, monitoring, and defenses that keep them alive in production.
 
@@ -24,7 +24,7 @@ I build complete systems end-to-end — from features to the pipelines, monitori
 
 ---
 
-### 📊 Proof of work
+### Proof of work
 
 <div align="center">
 
@@ -37,7 +37,7 @@ I build complete systems end-to-end — from features to the pipelines, monitori
 
 ---
 
-### 🧰 Toolbox
+### Toolbox
 
 <div align="center">
 
