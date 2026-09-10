@@ -1,72 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="850" height="80" viewBox="0 0 850 80" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="64" viewBox="0 0 850 64" role="img">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0078D4"/>
-      <stop offset="0.45" stop-color="#0a3060">
-        <animate attributeName="stop-color" values="#0a3060;#0d4a8a;#0a3060" dur="12s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="1" stop-color="#0d1117"/>
+      <stop offset="0" stop-color="#0A3060"/>
+      <stop offset="0.5" stop-color="#101B30"/>
+      <stop offset="1" stop-color="#0B1220"/>
     </linearGradient>
-    <clipPath id="body">
-      <path d="M0 30 Q 106.25 60 212.5 30 T 425 30 T 637.5 30 T 850 30 T 1062.5 30 T 1275 30 T 1487.5 30 T 1700 30 L 1700 80 L 0 80 Z"/>
-    </clipPath>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#58a6ff" stroke-opacity="0.12" stroke-width="1"/>
-    </pattern>
+    <linearGradient id="topline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2F81F7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#58A6FF" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#00C2A8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2F81F7" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2F81F7" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <style>
-    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-850px); } }
-    .wave  { animation: drift 11s linear infinite; }
-    .wave3 { animation: drift 16s linear infinite; }
-    .wave2 { animation: drift 21s linear infinite reverse; }
-    @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
-    .bob2 { animation: bob 8s ease-in-out -3s  infinite; }
-    .bob3 { animation: bob 10s ease-in-out -5s infinite; }
-    @keyframes rise {
-      0%   { transform: translateY(28px); opacity: 0; }
-      15%  { opacity: 0.5; }
-      85%  { opacity: 0.5; }
-      100% { transform: translateY(-42px); opacity: 0; }
-    }
-    .b { animation: rise 9s ease-in infinite; }
-    .b1 { animation-duration: 7s;  animation-delay: 0s;   }
-    .b2 { animation-duration: 10s; animation-delay: 2.6s; }
-    .b3 { animation-duration: 6.5s; animation-delay: 4.9s; }
-    .b4 { animation-duration: 11s; animation-delay: 1.4s; }
-    .b5 { animation-duration: 8s;  animation-delay: 3.7s; }
-    .b6 { animation-duration: 9.5s; animation-delay: 6.1s; }
-  </style>
-
-  <!-- solid sky so footer reads in light + dark mode, matches header -->
-  <rect width="850" height="80" fill="#0d1117"/>
-  <rect width="850" height="80" fill="url(#grid)" opacity="0.5"/>
-
-  <!-- back waves drift the other way and gently bob; bottoms extended past the viewBox so bobbing never exposes a seam -->
-  <g class="bob2" opacity="0.30">
-    <g class="wave2">
-      <path fill="#58a6ff" d="M0 18 Q 85 46 170 18 T 340 18 T 510 18 T 680 18 T 850 18 T 1020 18 T 1190 18 T 1360 18 T 1530 18 T 1700 18 L 1700 92 L 0 92 Z"/>
-    </g>
-  </g>
-  <g class="bob3" opacity="0.45">
-    <g class="wave3">
-      <path fill="#388bfd" d="M0 24 Q 53.125 50 106.25 24 T 212.5 24 T 318.75 24 T 425 24 T 531.25 24 T 637.5 24 T 743.75 24 T 850 24 T 956.25 24 T 1062.5 24 T 1168.75 24 T 1275 24 T 1381.25 24 T 1487.5 24 T 1593.75 24 T 1700 24 L 1700 92 L 0 92 Z"/>
-    </g>
-  </g>
-
-  <!-- front wave with a foam crest tracing its top -->
-  <g class="wave">
-    <path fill="url(#bg)" d="M0 30 Q 106.25 60 212.5 30 T 425 30 T 637.5 30 T 850 30 T 1062.5 30 T 1275 30 T 1487.5 30 T 1700 30 L 1700 80 L 0 80 Z"/>
-    <path fill="none" stroke="#ffffff" stroke-opacity="0.25" stroke-width="2"
-          d="M0 30 Q 106.25 60 212.5 30 T 425 30 T 637.5 30 T 850 30 T 1062.5 30 T 1275 30 T 1487.5 30 T 1700 30"/>
-  </g>
-
-  <!-- bubbles, clipped to the wave body -->
-  <g clip-path="url(#body)">
-    <circle class="b b1" cx="140" cy="72" r="3.5" fill="#9cd3ff" opacity="0"/>
-    <circle class="b b2" cx="310" cy="75" r="2.5" fill="#ffffff" opacity="0"/>
-    <circle class="b b3" cx="470" cy="73" r="4"   fill="#9cd3ff" opacity="0"/>
-    <circle class="b b4" cx="610" cy="76" r="2.5" fill="#ffffff" opacity="0"/>
-    <circle class="b b5" cx="720" cy="72" r="3.5" fill="#9cd3ff" opacity="0"/>
-    <circle class="b b6" cx="80"  cy="75" r="2"   fill="#ffffff" opacity="0"/>
-  </g>
+  <rect width="850" height="64" fill="#0B1220"/>
+  <rect width="850" height="64" fill="url(#bg)" opacity="0.7"/>
+  <ellipse cx="425" cy="32" rx="380" ry="40" fill="url(#glow)"/>
+  <rect y="0" width="850" height="2" fill="url(#topline)"/>
 </svg>
