@@ -27,9 +27,6 @@
     .name { font-size: 38px; font-weight: 800; letter-spacing: 5px; fill: #FFFFFF; }
     .sub { font-size: 15px; fill: #9AA9C3; letter-spacing: 0.5px; }
     .pill { font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; fill: #E6EDF3; }
-    .work { font-size: 10.5px; font-weight: 700; letter-spacing: 1.5px; fill: #D8FFE8; }
-    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
-    .dot { animation: pulse 2.2s ease-in-out infinite; }
   </style>
 
   <rect width="850" height="220" fill="url(#bg)"/>
@@ -37,13 +34,6 @@
   <ellipse cx="180" cy="110" rx="280" ry="140" fill="url(#glowBlue)"/>
   <ellipse cx="680" cy="110" rx="280" ry="140" fill="url(#glowTeal)"/>
   <rect width="850" height="3" fill="url(#topline)"/>
-
-  <!-- open to work -->
-  <g>
-    <rect x="670" y="22" width="156" height="28" rx="14" fill="#12261A" stroke="#2EA44F" stroke-opacity="0.5"/>
-    <circle class="dot" cx="690" cy="36" r="5" fill="#3FB950"/>
-    <text class="work" x="758" y="40">OPEN TO WORK</text>
-  </g>
 
   <text class="name" x="425" y="105">OUSSAMA GHAZOUANI</text>
   <text class="sub" x="425" y="132">Building systems that survive production</text>

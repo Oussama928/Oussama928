@@ -1,12 +1,11 @@
 <div align="center">
 
-<img src="assets/header.svg?v=7" width="100%" alt="Oussama Ghazouani — full-stack · cloud/devops · agentic AI" />
+<img src="assets/header.svg?v=8" width="100%" alt="Oussama Ghazouani — full-stack · cloud/devops · agentic AI" />
 
 <a href="https://github.com/Oussama928">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=I+ship+it%2C+then+I+harden+it" alt="typing" />
 </a>
 
-![Open to work](https://img.shields.io/badge/open_to_work-full--stack%20·%20cloud%20·%20security-2ea44f?style=for-the-badge&logo=githubsponsors&logoColor=white)
 [![Repos](https://img.shields.io/badge/built-26%20projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Oussama928?tab=repositories)
 
 </div>
