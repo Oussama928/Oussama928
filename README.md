@@ -16,7 +16,7 @@
 
 ### 👋 The pitch
 
-I'm a full-stack developer who fell in love with the unglamorous half of software: deployment, security, and everything that keeps an app alive in production. I don't just build features — I build the pipeline, the monitoring, and the defense around them.
+I build complete systems end-to-end — from features to the pipelines, monitoring, and defenses that keep them alive in production.
 
 **What I bring to a team:**
 
