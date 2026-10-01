@@ -64,3 +64,5 @@ I build complete systems end-to-end — from features to the pipelines, monitori
 <img src="assets/footer.svg?v=5" width="100%" alt="" />
 
 </div>
+
+<!-- for the love of the game -->
