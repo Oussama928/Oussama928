@@ -61,6 +61,6 @@ I build complete systems end-to-end — from features to the pipelines, monitori
 
 **The fastest way to reach me is by email — my inbox is open for opportunities and interesting problems.**
 
-<img src="assets/footer.svg?v=6" width="100%" alt="" />
+<img src="assets/footer.svg?v=7" width="100%" alt="" />
 
 </div>
