@@ -31,7 +31,7 @@ I build complete systems end-to-end — from features to the pipelines, monitori
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Oussama928&theme=github_dark" height="170" loading="lazy" alt="GitHub profile summary" />
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Oussama928&theme=github_dark" height="150" loading="lazy" alt="Repositories per language" />
-<img src="https://streak-stats.demolab.com?user=Oussama928&hide_long_streak=true&background=0D111700&border=0&stroke=0D111700&dates=8B949E&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=8B949E&fire=0078D4&v=3" height="150" loading="lazy" alt="GitHub streak" />
+<img src="https://streak-stats.demolab.com?user=Oussama928&hide_long_streak=true&background=0D111700&border=0&stroke=0D111700&dates=8B949E&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=8B949E&fire=0078D4&v=4" height="150" loading="lazy" alt="GitHub streak" />
 
 </div>
 
